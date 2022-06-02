@@ -41,9 +41,9 @@ import Final from "./Componentes/final";
 function App() {
   const [dado, setDado] = useState();
   return (
-    <div class="content is-medium">
+    <div class="content is-medium has-text-centered">
     <BrowserRouter>
-      <nav class="navbar is-danger is-light content is-medium">
+      <nav class="navbar is-danger is-light content is-medium ">
         <div class="navbar-menu">
           <div class="navbar-start">
         <Link class="navbar-item" to={'/nome'}>Jogar</Link>
